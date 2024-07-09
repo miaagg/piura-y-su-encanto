@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piura Con Detalle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color:#E99886;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        article {
+            flex: 2;
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-right: 20px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+        }
+        footer {
+            background-color:#E99886;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .new-section {
+            background-color: #e0e0e0;
+            padding: 20px;
+        }
+        .visitor-form {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .visitor-form input, .visitor-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .visitor-form input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Departamento de Piura, Perú</h1>
+        <nav>
+            <ul>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="geografia.html">Geografía</a></li>
+                <li><a href="economia.html">Economía</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2 id="historia">Piura</h2>
+            <p>Trujillo, una ciudad emblemática en el norte del Perú, cautiva con su fascinante mezcla de historia, cultura y modernidad. Fundada en 1532 por Francisco Pizarro, Trujillo fue la primera ciudad española en territorio peruano, y desde entonces ha desempeñado un papel crucial en el desarrollo del país. Su centro histórico, enmarcado por majestuosas casonas coloniales, iglesias centenarias y plazas arboladas, evoca el esplendor de su pasado colonial. La influencia de las antiguas civilizaciones Moche y Chimú se hace palpable en los cercanos yacimientos arqueológicos, como las impresionantes Huacas del Sol y de la Luna, que ofrecen una ventana al pasado precolombino de la región.
+
+Consolidando su importancia como centro administrativo y cultural en el norte del país. Desde entonces, ha sido testigo de importantes acontecimientos históricos y ha sido cuna de figuras destacadas en la política, la literatura y las artes.
+
+Hoy en día, Trujillo sigue siendo un destino turístico de primer orden, donde los visitantes pueden explorar su rica herencia histórica, disfrutar de su variada gastronomía regional y participar en festividades folclóricas que celebran su identidad cultural única. Además, como centro urbano en constante crecimiento, la ciudad ofrece una vibrante escena cultural y una próspera economía, atrayendo a residentes y visitantes por igual. En resumen, Trujillo es mucho más que una ciudad histórica: es un destino dinámico y acogedor que invita a descubrir sus múltiples facetas y a enamorarse de su encanto sin igual.</p>
+        </article>
+        <aside>
+            <h2>Video promocional: Hotel en Piura</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/demuv247QcM?si=HFEvb80Uynbi2ptv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <h2>Formulario de Búsqueda en Google</h2>
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Buscar en Google">
+                <input type="submit" value="Buscar">
+            </form>
+            <h2>Galería de Imágenes</h2>
+            <img src="imagen/mancora.jpg" alt="MANCORA" width="300" height="200" style="margin-bottom: 10px;">
+            <img src="imagen/plaza.jpg" alt="plaza de armas" width="300" height="200">
+        </aside>
+    </section>
+
+    <section class="new-section">
+        <article>
+            <h2>Atracciones Turísticas</h2>
+            <p>Ten un paseo virtual por las atracciones turisticas que tiene Piura.</p>
+            <img src="imagen/tortugas.jpg" alt="tortugas" width="300" height="200"" style="margin-bottom: 10px;">
+            <img src="imagen/danza.jpg" alt="Atracción 2" width="300" height="200">
+        </article>
+    </section>
+
+    <section class="visitor-form">
+        <h2>Registro de Visitantes</h2>
+        <form>
+            <input type="text" name="name" placeholder="Nombre Completo">
+            <input type="email" name="email" placeholder="Correo Electrónico">
+            <textarea name="comments" placeholder="Comentarios"></textarea>
+            <input type="submit" value="Registrarse">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Departamento de Piura, Perú 2024</p>
+    </footer>
+</body>
+</html>
